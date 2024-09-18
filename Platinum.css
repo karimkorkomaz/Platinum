@@ -58,3 +58,29 @@ body{max-height: 7000px}
     bottom: 370px;
     width: 1%;
 }
+.w{
+    font-family: sans-serif;
+    display: flex;
+    position: relative;
+
+    bottom: 270px;
+    width: 10%;
+}
+.M{
+    font-family: sans-serif;
+    display: flex;
+    position: relative;
+
+    bottom: 303px;
+    left: 90px;
+    width: 10%;
+}
+.K{
+    font-family: sans-serif;
+    display: flex;
+    position: relative;
+
+left: 155px;
+    bottom: 337px;
+    width: 10%;
+}
