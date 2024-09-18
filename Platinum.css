@@ -1,0 +1,60 @@
+body{
+    background-color: seashell;
+
+
+}
+body{max-height: 7000px}
+
+
+.HeaderStyling{
+    font-family:sans-serif;
+    font-size: 100%;
+
+}
+.ImageStyling{
+    position: relative;
+    width: 200px;
+    height: 160px;
+    margin-left: 20px;
+
+
+
+}
+.Button{
+    font-size: 290%;
+    width: 100px;
+    display: flex;
+    position: relative;
+    bottom: 200px;
+
+
+
+
+
+
+}
+.log{
+    font-family: "Times New Roman", serif;
+    display: flex;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+    width: 8%;
+
+}
+.help{
+    font-family: "Times New Roman", serif;
+    display: flex;
+    position: relative;
+    left: 1300px;
+    bottom: 334px;
+    width: 1%;
+}
+.bag{
+    font-family: "Times New Roman", serif;
+    display: flex;
+    position: relative;
+    left: 1382px;
+    bottom: 370px;
+    width: 1%;
+}
