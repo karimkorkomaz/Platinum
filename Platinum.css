@@ -2,6 +2,16 @@ body{
     background-color: seashell;
 
 
+    background-repeat: no-repeat;
+    background-size: 20%;
+    position: relative;
+    bottom: 20px;
+
+
+
+}
+.img1{
+   text-align: center;
 }
 body{max-height: 7000px}
 
@@ -13,74 +23,100 @@ body{max-height: 7000px}
 }
 .ImageStyling{
     position: relative;
-    width: 200px;
-    height: 160px;
-    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+   text-align: center;
+
+    image-resolution:from-image;
+
+
+
+
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: seashell;
+    height: 100px;
+    top:0px;
+
+
+}
+.grid-item{
+    padding: 20px;
+    text-align: center;
+    bottom: -19px;
+    position: relative;
+
 
 
 
 }
 .Button{
-    font-size: 290%;
+    font-size: 327%;
     width: 100px;
     display: flex;
     position: relative;
-    bottom: 200px;
-
-
-
-
-
+    bottom: 120px;
+    margin-left: 300px;
 
 }
-.log{
-    font-family: "Times New Roman", serif;
-    display: flex;
-    position: relative;
-    left: 1200px;
-    bottom: 300px;
-    width: 8%;
+.F1{
+    font-family: Impact,fantasy;
+    font-size: 500%;
 
 }
-.help{
-    font-family: "Times New Roman", serif;
-    display: flex;
-    position: relative;
-    left: 1300px;
-    bottom: 334px;
-    width: 1%;
-}
-.bag{
-    font-family: "Times New Roman", serif;
-    display: flex;
-    position: relative;
-    left: 1382px;
-    bottom: 370px;
-    width: 1%;
-}
-.w{
-    font-family: sans-serif;
-    display: flex;
-    position: relative;
 
-    bottom: 270px;
-    width: 10%;
+* {
+    box-sizing: border-box;
 }
-.M{
-    font-family: sans-serif;
-    display: flex;
-    position: relative;
 
-    bottom: 303px;
-    left: 90px;
-    width: 10%;
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
 }
-.K{
-    font-family: sans-serif;
-    display: flex;
-    position: relative;
 
-left: 155px;
-    bottom: 337px;
-    width: 10%;
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-login {
+    padding: 10px 30px;
+    color: #333;
+    border: 1px solid #333;
+    background: #fff;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+    margin-left: 1180px;
+    position: relative;
+    bottom: 45px;
+
+}
+
+.btn-login:hover {
+    border-color: #fff;
+    background: #666;
+    color: #fff;
 }
