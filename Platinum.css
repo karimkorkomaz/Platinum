@@ -48,6 +48,7 @@ body{max-height: 7000px}
     text-align: center;
     bottom: -19px;
     position: relative;
+    font-family: "Arial Rounded MT Bold","BankGothic Md BT";
 
 
 
@@ -59,11 +60,11 @@ body{max-height: 7000px}
     display: flex;
     position: relative;
     bottom: 120px;
-    margin-left: 300px;
+    margin-left: 180px;
 
 }
 .F1{
-    font-family: Impact,fantasy;
+    font-family: "BankGothic Md BT";
     font-size: 500%;
 
 }
